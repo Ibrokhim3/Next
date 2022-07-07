@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(119, 172, 204);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box{
+  width: 380px;
+  height: 430px;
+  background-color: #ffffff;
+  border-radius: 2.5px;
+  
+
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 0 1rem;
+}
+
+.line{
+  margin: 1px;
+
+
+}
+
+.days{
+  margin: 0;
+  
+ 
+
+  
+
+}
+
+.days_list{
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  /* gap: 0.5rem; */
+  color: gray;
+ 
+  margin: 0;
+ 
+
+}
+
+.days_item{
+width: 37.5px;
+height: 37.5px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 0.5rem;
+}
+
+.number_list{
+
+  display: flex;
+  list-style: none;
+  
+
+  
+  
+}
+
+
+.main{
+  
+}
+
+.days_gray{
+  color: rgb(240, 240, 240);
+}
+
+.day_31{
+  background-color: rgb(216, 105, 59);
+  border-radius: 50%;
+ 
+
+  
+}
+
+.s_day_31{
+ 
+}
+
+.numbers{
+
+ 
+
+
+  
+}
+
+.day_1{
+  border: 2px solid rgb(216, 105, 59);
+  border-radius: 50%;
+  position: relative;
+  
+
+}
+
+.day_1::after{
+  content: "6";
+  background-color: rgb(216, 105, 59);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 12.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: ;
+  top: -4px;
+  right: -4px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  /* background-color: red; */
+  margin: 0;
+
+}
+
+.bottom p{
+  margin: 1.5px;
+}
+
+.plus{
+  border: 2px solid rgb(216, 105, 59);
+  border-radius: 50% ;
+  width:37.5px;
+  height: 37.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
